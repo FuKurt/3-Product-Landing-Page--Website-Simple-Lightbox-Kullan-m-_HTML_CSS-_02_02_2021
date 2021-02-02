@@ -58,6 +58,15 @@ img{
     padding: 0 2rem;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overlay-color);
+}
+
 .navbar{
     font-size: 1.2rem;
     padding-top: 0.3rem;
@@ -109,7 +118,38 @@ img{
     margin: 1rem 0;
 }
 
+.part-a {
+    position: relative;
+    background: url('../img/hphone2.jpg') no-repeat bottom center/cover;
+    height: 600px;
+}
 
+.part-a-inner {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+}
+
+.part-a-inner h3 {
+    font-size: 2rem;
+}
+
+.part-a-inner h2 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.part-a-inner p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
 
 
 
