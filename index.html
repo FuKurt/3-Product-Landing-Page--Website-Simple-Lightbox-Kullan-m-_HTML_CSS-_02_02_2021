@@ -44,8 +44,18 @@
             </div>
         </div>
     </section>
-
-
+    <!-----------------------------------Gallery------------------------------------------->
+    <!--class:big Lightbox'tan gelen bir sınıf-->
+    <section class="gallery">
+        <div class="grid">
+            <a href="./img/hphone7.jpg" class="big"><img src="./img/hphone7.jpg" alt=""></a>
+            <a href="./img/phone8.jpg" class="big"><img src="./img/phone8.jpg" alt=""></a>
+            <a href="./img/hphone6.jpg" class="big"><img src="./img/hphone6.jpg" alt=""></a>
+            <a href="./img/hphone5.jpg" class="big"><img src="./img/hphone5.jpg" alt=""></a>
+            <a href="./img/hphone4.jpg" class="big"><img src="./img/hphone4.jpg" alt=""></a>
+            <a href="./img/hphone3.jpg" class="big"><img src="./img/hphone3.jpg" alt=""></a>
+        </div>
+    </section>
 
 
     <!--Font Awesome-->
@@ -54,8 +64,8 @@
     <script src="./js/jquery.js"></script>
     <script>
         $(function(){
-            const $gallery = $('.gallery a').sipleLightbox();
-        })
+            const $gallery = $('.grid a').simpleLightbox();
+        });
     </script>
 </body>
 </html>
